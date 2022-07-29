@@ -11,7 +11,10 @@ export const config: Config = {
       type: 'dist-custom-elements',
     },
     {
-      type: 'docs-readme',
+      type: 'docs-readme'
+    },
+    {
+      type: 'docs-json', file: 'docs/docs.json'
     },
     {
       type: 'www',
